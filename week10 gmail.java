@@ -28,9 +28,11 @@ public class week10 {
          WebElement lname=driver.findElement(By.xpath("//*[@id=\"lastName\"]"));
          lname.sendKeys("kumar");
          Thread.sleep(1000);
+		
          WebElement next1=driver.findElement(By.xpath("//*[@id=\"collectNameNext\"]/div/button/span"));
          next1.click();
          Thread.sleep(1000);
+		
          WebElement date=driver.findElement(By.xpath("//*[@id=\"day\"]"));
          Thread.sleep(1000);
          date.sendKeys("4");
@@ -43,6 +45,7 @@ public class week10 {
         WebElement month=(driver.findElement(By.xpath("//*[@id=\"month\"]/div[1]/div[1]/div[1]")));
          month.click();
         Thread.sleep(2000); 
+		
        WebElement mo=driver.findElement(By.xpath("//*[@id=\"month\"]/div[1]/div[2]/ul[1]/li[3]"));
        mo.click();
        Thread.sleep(1000);
