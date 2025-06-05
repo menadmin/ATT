@@ -16,6 +16,7 @@ public class week10 {
          WebElement create=driver.findElement(By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[3]/div/div[2]/div/div/div[1]/div/button/span"));
          create.click();
          Thread.sleep(1000);
+		
          WebElement per=driver.findElement(By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[3]/div/div[2]/div/div/div[2]/div/ul/li[1]/span[3]"));
          per.click();
          Thread.sleep(1000);
