@@ -49,24 +49,31 @@ public class week10 {
          WebElement gender=(driver.findElement(By.xpath("//*[@id=\"gender\"]/div[1]/div[1]/div[1]")));
          gender.click();
          Thread.sleep(1000);
+		
          WebElement ge=driver.findElement(By.xpath("//*[@id=\"gender\"]/div[1]/div[2]/ul[1]/li[2]"));
          ge.click();
          Thread.sleep(1000);
+		
          WebElement next2=driver.findElement(By.xpath("//*[@id=\"birthdaygenderNext\"]/div/button/span"));
          next2.click();
          Thread.sleep(1000);
+		
          WebElement btwn=driver.findElement(By.xpath("//*[@id=\"yDmH0d\"]/c-wiz/div/div[2]/div/div/div/form/span/section/div/div/div/div[1]/div/div[1]/div/div[1]/input"));
          btwn.sendKeys("Shyamkuupi1864");
          Thread.sleep(1000);
+		
          WebElement nextbtn=driver.findElement(By.xpath("//*[@id=\"next\"]/div/button/span"));
          nextbtn.click();
          Thread.sleep(1000);
+		
          WebElement setpwd=driver.findElement(By.xpath("//*[@id=\"passwd\"]/div[1]/div/div[1]/input"));
          setpwd.sendKeys("kumar#123");
          Thread.sleep(1000);
+		
          WebElement cpwd=driver.findElement(By.xpath("//*[@id=\"confirm-passwd\"]/div[1]/div/div[1]/input"));
          cpwd.sendKeys("kumar#123");
          Thread.sleep(1000);
+		
          WebElement next3=driver.findElement(By.xpath("//*[@id=\"createpasswordNext\"]/div/button/span"));
          next3.click();   
          
